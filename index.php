@@ -39,9 +39,9 @@ if(isset($_REQUEST['ett']) && $_REQUEST['ett'] != ''){
 
 <body>
   <ul id="menu" class="clearfix">
-    <li><a href="link1">Link 1</a></li>
-    <li><a href="link2">Link 2</a></li>
-    <li><a href="link3">Link 3</a></li>
+    <li><a href="link1">Link 1</a> - (It has to fire "<?php echo $event_to_test;?>" two times) </li>
+    <li><a href="link2">Link 2</a> - (It has to fire "AddPaymentInfo" two times) </li>
+    <li><a href="link3">Link 3</a> - (It has to fire "CompleteRegistration" two times)</li>
   </ul>
 
   <hr />
