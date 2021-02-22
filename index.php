@@ -48,7 +48,7 @@ if(isset($_REQUEST['ett']) && $_REQUEST['ett'] != ''){
 
   <div id="content"></div>
 
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
   <script>
     (function ($) {
       var loadContent = function (href) {
