@@ -1,4 +1,5 @@
 <?php
+phpinfo();
 $event_to_test = 'PageView';
 if(isset($_REQUEST['ett']) && $_REQUEST['ett'] != ''){
   $event_to_test = $_REQUEST['ett'];
