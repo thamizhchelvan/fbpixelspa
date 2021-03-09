@@ -73,10 +73,10 @@ if(isset($_REQUEST['ett']) && $_REQUEST['ett'] != ''){
               default:
             }
 
-            fbq('track', eventname, { eventID: btoa(Date.now().toString()) });
+            fbq('track', eventname,{'somekey':6}, { eventID: btoa(Date.now().toString()) });
             //sending same event after some delay, after 3 secs
             window.setTimeout(function(){
-              fbq('track', eventname, { eventID: btoa(Date.now().toString()) });
+              fbq('track', eventname,{'somekey':7}, { eventID: btoa(Date.now().toString()) });
             },3000);
             
 
