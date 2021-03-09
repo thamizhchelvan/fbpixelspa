@@ -27,7 +27,7 @@ if(isset($_REQUEST['ett']) && $_REQUEST['ett'] != ''){
     fbq('init', '1654677854812921');
     fbq.disablePushState = true;
     fbq.allowDuplicatePageViews = true;
-    fbq('track', '<?php echo $event_to_test;?>', {
+    fbq('track', '<?php echo $event_to_test;?>',{}, {
       eventID: btoa(Date.now().toString())
     });
   </script>
